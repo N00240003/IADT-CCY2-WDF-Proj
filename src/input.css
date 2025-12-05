@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  /* My Font */
+  --font-display: 'Nunito', sans-serif;
+
+  /* My Colours */
+  /* Monsoon shades */
+  --color-monsoon-100: #ceccd2;
+  --color-monsoon-200: #b6b3bb;
+  --color-monsoon-300: #9e99a4;
+  --color-monsoon-400: #86808e;
+  --color-monsoon-500: #6d6677;
+  --color-monsoon-600: #554d60;
+  --color-monsoon-700: #3d3349;
+  --color-monsoon-800: #241a33;
+  --color-monsoon-900: #0C001C;
+
+  /* Indigo shades */
+  --color-indigo-100: #E7E1FB;
+  --color-indigo-200: #C9BDF6;
+  --color-indigo-300: #A799EE;
+  --color-indigo-400: #8474E4;
+  --color-indigo-500: #5C34D5;
+  --color-indigo-600: #4D2BB2;
+  --color-indigo-700: #3C228C;
+  --color-indigo-800: #2A1866;
+  --color-indigo-900: #1A0E40;
+
+  /* Jasmine shades */
+  --color-jasmine-100: #F0E5FF;
+  --color-jasmine-200: #D9C1FF;
+  --color-jasmine-300: #C29AFF;
+  --color-jasmine-400: #A96FFF;
+  --color-jasmine-500: #8B41FF;
+  --color-jasmine-600: #7027D1;
+  --color-jasmine-700: #551CA1;
+  --color-jasmine-800: #3A136F;
+  --color-jasmine-900: #20083F;
+
+  /* Lilac shades */
+  --color-lilac-100: #F6E8FF;
+  --color-lilac-200: #E8C9FF;
+  --color-lilac-300: #D5A3FF;
+  --color-lilac-400: #C27DFF;
+  --color-lilac-500: #B956FF;
+  --color-lilac-600: #963FCC;
+  --color-lilac-700: #722F99;
+  --color-lilac-800: #4E2066;
+  --color-lilac-900: #2A123A;
+
+  /* Candy shades */
+  --color-candy-100: #FFE7FB;
+  --color-candy-200: #FFC9F5;
+  --color-candy-300: #FFA8F0;
+  --color-candy-400: #FF80E9;
+  --color-candy-500: #FF45EF;
+  --color-candy-600: #D136C3;
+  --color-candy-700: #A12792;
+  --color-candy-800: #6F1860;
+  --color-candy-900: #3F0A35;
+
+  /* Peach shades */
+  --color-peach-100: #FFECEC;
+  --color-peach-200: #FFD0D1;
+  --color-peach-300: #FFB3B5;
+  --color-peach-400: #FF9D9F;
+  --color-peach-500: #FF999D;
+  --color-peach-600: #CC666A;
+  --color-peach-700: #994A4E;
+  --color-peach-800: #663135;
+  --color-peach-900: #331A1B;
+
+  /* Sand shades */
+  --color-sand-100: #FFF2E6;
+  --color-sand-200: #FFE0BF;
+  --color-sand-300: #FFCD99;
+  --color-sand-400: #FFB873;
+  --color-sand-500: #FFC177;
+  --color-sand-600: #CC9A5F;
+  --color-sand-700: #997545;
+  --color-sand-800: #664E2C;
+  --color-sand-900: #332816;
+}
+
+@layer base {
+  h1 {
+    font-size: var(--text-5xl);
+    line-height: 65%;
+  }
+  h2 {
+    font-size: var(--text-xl);
+    line-height: 70%;
+  }
+  h3 {
+    font-size: var(--text-lg);
+    line-height: 60%;
+  }
+  p {
+    line-height: 60%;
+  }
+  
+}
+
+@layer components {
+.btn-candy {
+    @apply bg-candy-600 text-white text-2xl px-4 py-2 my-2 rounded-xl hover:bg-candy-500 hover:scale-105 transition-transform duration-200;
+}
+.btn-sand {
+    @apply bg-sand-500 text-monsoon-900 text-2xl px-4 py-2 my-2 rounded-xl hover:bg-sand-400 hover:scale-105 transition-transform duration-200;
+}
+}
