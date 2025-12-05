@@ -48,17 +48,17 @@
 
 
     <!-- Hero Section -->
-    <section class="container mx-auto bg-white p-4 mb-4">
+    <section class="mx-auto bg-linear-to-r/increasing from-indigo-500  to-sand-500 p-4 mb-4">
         <div class="flex flex-col md:flex-row gap-8 items-center justify-center">
             <!-- Big Text -->
-            <div class="flex-1">
-                <div class="text-monsoon-900">
-                    <h1 class="m-3 text-shadow-xs">
+            <div class="flex-1 m-3">
+                <div class="text-white md:text-left">
+                    <h1 class="font-medium text-shadow-lg">
                         Connect, Discover, and Experience Campus Life!
                     </h1>
 
-                    <h2 class=" text-gray-700 m-3">
-                        Join clubs and societies that match your interests. Discover upcoming events and RSVP instantly.
+                    <h2 class="m-3">
+                        Join clubs and societies that match your interests.
                         Your
                         complete campus community in one place.
                     </h2>
@@ -70,25 +70,192 @@
                     <button class="btn-sand">Learn More</button>
                 </div>
             </div>
-
+            <!-- Two phones -->
             <div class="flex-1">
-                <img class="rounded-lg max-w-2xl mx-auto lg:mx-0" src="images/Hero-Image.jpg" alt="Hero Image">
+                <img class="rounded-lg max-w-2xl mx-auto lg:mx-0" src="images/Hero-Screens.png" alt="Hero Image">
             </div>
         </div>
     </section>
 
-    <!-- Everything you need Section -->
-    <section class="container-3xl mx-auto bg-sand-400 p-4 mb-4">
+    <!-- Our Mission -->
+    <section class="container mx-auto p-4 mb-3">
+        <div class="flex flex-col md:flex-row gap-8 items-center justify-center">
+            <!-- Image -->
+            <div class="flex flex-2 justify-center mb-4">
+                <img class="rounded-lg max-w-2xl mx-auto" src="images/Mission-Image.jpg" alt="Mission Image">
+            </div>
+
+            <!-- Text -->
+            <div class="text-gray-900">
+
+                <h2 class="font-bold mb-2 text-3xl ">
+                    Making Every Student Feel
+                    Accepted & Engaged
+                </h2>
+
+                <p class=" text-gray-700 mb-3">
+                    Starting university can be overwhelming. We created this app to help every third-level student find
+                    their community, build meaningful connections, and feel truly part of the student experience from
+                    day
+                    one.
+                </p>
+
+                <div class="flex flex-col gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <ion-icon name="heart-outline" class="text-3xl bg-candy-300 text-candy-500"></ion-icon>
+                        <div>
+                            <h2 class="font-bold">Inclusive Community</h2>
+                            <p class=" text-gray-700 mb-3">
+                                A welcoming space where every student belongs, regardless of background or interests.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <ion-icon class="text-3xl bg-peach-200 text-peach-500" name="people-outline"></ion-icon>
+                        <div>
+                            <h2 class="font-bold">Real Connections</h2>
+                            <p class=" text-gray-700 mb-3">
+                                Meet people who share your interests, join clubs, and build friendships that last.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <ion-icon name="sparkles-outline"
+                            class="text-3xl bg-sand-100 roudned-lg text-sand-500"></ion-icon>
+                        <div>
+                            <h2 class="font-bold">Engaging Experiences</h2>
+                            <p class=" text-gray-700 mb-3">
+                                Discover events, activities, and opportunities that make university life memorable.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="container mx-auto bg-white p-4 mb-4">
+        <!-- Text -->
+        <div class="text-gray-900 text-center max-w-lg mx-auto">
+            <h2 class="font-bold mb-2 text-3xl">
+                Everything You Need to Thrive at University
+            </h2>
+
+            <h3 class=" text-gray-700 mb-3">
+                Our app is designed with students in mind, packed with features that make campus life easier, more
+                connected, and way more fun.
+            </h3>
+        </div>
+        
+        <!-- Cards -->
+        <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+            <!-- Step 1 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="person-add-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Create an Account</h3>
+                <p class="text-gray-600">Sign up with your university email to access exclusive campus features.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Explore & Join</h3>
+                <p class="text-gray-600">Browse clubs and societies, read about their activities, and join the ones you
+                    love.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Connect & Participate</h3>
+                <p class="text-gray-600">Join groups, RSVP to events, and engage with your campus community.</p>
+            </div>
+             <!-- Step 1 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="person-add-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Create an Account</h3>
+                <p class="text-gray-600">Sign up with your university email to access exclusive campus features.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Explore & Join</h3>
+                <p class="text-gray-600">Browse clubs and societies, read about their activities, and join the ones you
+                    love.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Connect & Participate</h3>
+                <p class="text-gray-600">Join groups, RSVP to events, and engage with your campus community.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="container mx-auto bg-white p-4 mb-4">
         <!-- Text -->
         <div class="text-gray-900">
             <h2 class="font-bold mb-2 text-3xl text-center">
-                Everything You Need in One Place
+                How It Works
             </h2>
 
             <h3 class=" text-gray-700 mb-3 text-center">
-                Discover clubs, societies, and events tailored to your interests. Connect with like-minded peers and
-                stay updated on campus happenings—all from a single platform designed for your university experience.
+                Getting started with Eventus is easy! Follow these simple steps to connect with your campus community.
             </h3>
+        </div>
+        <!-- Steps -->
+        <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+            <!-- Step 1 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="person-add-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Create an Account</h3>
+                <p class="text-gray-600">Sign up with your university email to access exclusive campus features.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Explore & Join</h3>
+                <p class="text-gray-600">Browse clubs and societies, read about their activities, and join the ones you
+                    love.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
+                <div class="text-4xl mb-4 text-indigo-500">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Connect & Participate</h3>
+                <p class="text-gray-600">Join groups, RSVP to events, and engage with your campus community.</p>
+            </div>
+
         </div>
 
         <!-- Cards -->
@@ -130,7 +297,7 @@
                 </div>
             </div>
             <div
-                class="col-auto max-w-xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+                class="col-auto max-w-xl mt-1.5 mx-auto bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
                 <!-- Image -->
                 <img class="w-full md:w-48 h-48 object-cover" src="images/TEST.jpg" alt="Card Image">
 
@@ -140,51 +307,6 @@
                     <p class="text-gray-600">Connect with like-minded students, grow your network, and make lasting
                         friendships.</p>
                 </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- How it Works Section -->
-    <section class="container mx-auto bg-white p-4 mb-4">
-        <!-- Text -->
-        <div class="text-gray-900">
-            <h2 class="font-bold mb-2 text-3xl text-center">
-                How It Works
-            </h2>
-
-            <h3 class=" text-gray-700 mb-3 text-center">
-                Getting started with Eventus is easy! Follow these simple steps to connect with your campus community.
-            </h3>
-        </div>
-        <!-- Steps -->
-        <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
-            <!-- Step 1 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
-                <div class="text-4xl mb-4 text-indigo-500">
-                    <ion-icon name="person-add-outline"></ion-icon>
-                </div>
-                <h3 class="text-xl font-bold mb-2">Create an Account</h3>
-                <p class="text-gray-600">Sign up with your university email to access exclusive campus features.</p>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
-                <div class="text-4xl mb-4 text-indigo-500">
-                    <ion-icon name="search-outline"></ion-icon>
-                </div>
-                <h3 class="text-xl font-bold mb-2">Explore & Join</h3>
-                <p class="text-gray-600">Browse clubs and societies, read about their activities, and join the ones you
-                    love.</p>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center w-64">
-                <div class="text-4xl mb-4 text-indigo-500">
-                    <ion-icon name="people-outline"></ion-icon>
-                </div>
-                <h3 class="text-xl font-bold mb-2">Connect & Participate</h3>
-                <p class="text-gray-600">Join groups, RSVP to events, and engage with your campus community.</p>
             </div>
 
         </div>
